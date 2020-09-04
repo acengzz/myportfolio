@@ -1,0 +1,11 @@
+main
+{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	@import './landing';
+	@import './about-me';
+	@import './abilites';
+	@import './hobbies';
+}

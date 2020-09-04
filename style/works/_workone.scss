@@ -1,0 +1,141 @@
+main{
+	.work{
+		background-color:rgb(245, 194, 99);
+		display:flex;
+		justify-content:space-around;
+		align-items: center;
+		height: 85vh;
+		width:100vw;
+		.image-1{
+			background-image: url('../../assets/1.png');
+			width:480px;
+			height:240px;
+			background-size:contain;
+		}
+		.image-2{
+			background-image: url('../../tracker.png');
+			width:235px;
+			height:400px;
+			background-size:contain;
+		}
+		.text{
+			width:40%;
+			height:40%;
+			text-align: center;
+			display:flex;
+			flex-direction: column;
+			justify-content: space-evenly;
+			align-items: center;
+		}
+		.buttons{
+			button{
+				background-color:rgb(74, 199, 74);
+				padding:10px;
+				border:none;
+				a{
+					text-decoration: none;
+					color:#333;
+				}
+
+			}
+		}
+	}
+}
+@media (min-width:200px) and (max-width:320px){
+	main{
+		.work{
+			background-color:rgb(245, 194, 99);
+			display:flex;
+			justify-content:space-around;
+			align-items: center;
+			height: 170vh !important;
+			width:100vw;
+			.image-1{
+				background-image: url('../../assets/1.png');
+				width:100px;
+				transform:scale(0.6);
+				height:120px;
+				background-size:contain;
+			}
+			.image-2{
+				background-image: url('../../tracker.png');
+				width:235px;
+				height:400px;
+				background-size:contain;
+			}
+			.text{
+				width:90%;
+				height:40%;
+				text-align: center;
+				display:flex;
+				flex-direction: column;
+				justify-content: space-evenly;
+				align-items: center;
+			}
+			.buttons{
+				button{
+					background-color:rgb(74, 199, 74);
+					margin-right:10px;
+					a{
+						text-decoration: none;
+						color:#333;
+					}
+	
+				}
+				display:flex;
+			}
+		}
+	}
+}
+@media (min-width:300px) and (max-width:768px){
+	main{
+		.work{
+			background-color:rgb(245, 194, 99);
+			display:flex;
+			flex-direction: column;
+			justify-content:space-around;
+			align-items: center;
+			height: 100vh;
+			width:100vw;
+			.image-1{
+				background-image: url('../../assets/1.png');
+				width:500px;
+				height:240px;
+				background-size:contain;
+				transform:scale(0.6);
+			}
+			.image-2{
+				background-image: url('../../tracker.png');
+				width:235px;
+				height:400px;
+				background-size:contain;
+			}
+			.text{
+				width:40%;
+				height:40%;
+				text-align: center;
+				display:flex;
+				flex-direction: column;
+				justify-content: space-evenly;
+				align-items: center;
+			}
+			.buttons{
+				display:flex;
+				justify-content: center;
+				width:240px;
+				margin:20px;
+				button{
+					background-color:rgb(74, 199, 74);
+					padding:10px;
+					border:none;
+					margin:20px;
+					a{
+						text-decoration: none;
+						color:#333;
+					}
+	
+				}
+			}
+		}
+	}
+}
