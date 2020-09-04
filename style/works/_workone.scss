@@ -7,13 +7,15 @@ main{
 		height: 85vh;
 		width:100vw;
 		.image-1{
-			background-image: url('https://i.imgur.com/bJfJSCc.png');
+			background-image: url('https://i.imgur.com/XKfZ80H.png');
+
 			width:480px;
 			height:240px;
 			background-size:contain;
 		}
 		.image-2{
-			background-image: url('https://i.imgur.com/XKfZ80H.png');
+			background-image: url('https://i.imgur.com/bJfJSCc.png');
+
 			width:235px;
 			height:400px;
 			background-size:contain;
@@ -51,12 +53,16 @@ main{
 			height: 170vh !important;
 			width:100vw;
 			.image-1{
+				background-image: url('https://i.imgur.com/XKfZ80H.png');
+
 				width:100px;
 				transform:scale(0.6);
 				height:120px;
 				background-size:contain;
 			}
 			.image-2{
+				background-image: url('https://i.imgur.com/bJfJSCc.png');
+
 				width:235px;
 				height:400px;
 				background-size:contain;
@@ -96,12 +102,14 @@ main{
 			height: 100vh;
 			width:100vw;
 			.image-1{
+				background-image: url('https://i.imgur.com/XKfZ80H.png');
 				width:500px;
 				height:240px;
 				background-size:contain;
 				transform:scale(0.6);
 			}
 			.image-2{
+				background-image: url('https://i.imgur.com/bJfJSCc.png');
 				width:235px;
 				height:400px;
 				background-size:contain;
