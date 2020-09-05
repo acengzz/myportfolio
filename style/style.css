@@ -1003,18 +1003,12 @@ main .work {
   width: 100vw;
 }
 
-main .work .image-1 {
-  background-image: url("../../assets/1.png");
-  width: 480px;
-  height: 240px;
-  background-size: contain;
+main .work .image-1 img {
+  width: 400px;
 }
 
-main .work .image-2 {
-  background-image: url("../../tracker.png");
-  width: 235px;
+main .work .image-2 img {
   height: 400px;
-  background-size: contain;
 }
 
 main .work .text {
@@ -1061,19 +1055,13 @@ main .work .buttons button a {
     height: 170vh !important;
     width: 100vw;
   }
-  main .work .image-1 {
-    background-image: url("../../assets/1.png");
-    width: 100px;
-    -webkit-transform: scale(0.6);
-            transform: scale(0.6);
-    height: 120px;
-    background-size: contain;
+  main .work .image-1 img {
+    position: absolute;
+    left: 40px;
   }
   main .work .image-2 {
-    background-image: url("../../tracker.png");
     width: 235px;
     height: 400px;
-    background-size: contain;
   }
   main .work .text {
     width: 90%;
@@ -1126,19 +1114,12 @@ main .work .buttons button a {
     height: 100vh;
     width: 100vw;
   }
-  main .work .image-1 {
-    background-image: url("../../assets/1.png");
-    width: 500px;
-    height: 240px;
-    background-size: contain;
-    -webkit-transform: scale(0.6);
-            transform: scale(0.6);
+  main .work .image-1 img {
+    width: 250px;
   }
   main .work .image-2 {
-    background-image: url("../../tracker.png");
     width: 235px;
     height: 400px;
-    background-size: contain;
   }
   main .work .text {
     width: 40%;
